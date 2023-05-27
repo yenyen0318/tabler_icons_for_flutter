@@ -4,13 +4,19 @@ use [tabler icons](https://tabler-icons.io/) in flutter!
 tabler icons version: v2.20.0
 
 ## Getting Started
+```dart
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('tabler icons demo'),
+        ),
+        body: const Center(child: Icon(TablerIcons.cone_plus)));
+  }
+}
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+![example](https://hackmd.io/_uploads/ryJzTtJL3.jpg)
