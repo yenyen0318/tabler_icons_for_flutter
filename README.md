@@ -19,4 +19,4 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-![example](https://hackmd.io/_uploads/ryJzTtJL3.jpg)
+![example](assets/image/readme-example.jpg)
