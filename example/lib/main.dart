@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'tabler icons',
       home: HomePage(),
     );
@@ -26,6 +27,23 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: const Text('tabler icons demo'),
         ),
-        body: const Center(child: Icon(TablerIcons.cone_plus)));
+        body: ListView.builder(
+          itemCount: TablerIcons.all.length,
+          itemBuilder: (BuildContext context, int index) {
+            String key = TablerIcons.all.keys.elementAt(index);
+            IconData iconData = TablerIcons.all.values.elementAt(index);
+            return Column(
+              children: <Widget>[
+                ListTile(
+                  leading: Icon(iconData),
+                  title: Text(key),
+                ),
+                const Divider(
+                  height: 2.0,
+                ),
+              ],
+            );
+          },
+        ));
   }
 }

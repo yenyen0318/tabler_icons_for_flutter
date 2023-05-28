@@ -31,6 +31,4 @@ flutter:
     - family: tabler-icons
       fonts:
         - asset: assets/fonts/tabler-icons.ttf
-          style: normal
-          weight: 400
 
