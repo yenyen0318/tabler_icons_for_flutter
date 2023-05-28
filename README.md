@@ -1,7 +1,13 @@
 # tabler_icons_for_flutter
 
-use [tabler icons](https://tabler-icons.io/) in flutter!
-tabler icons version: v2.20.0
+Use [tabler icons](https://tabler-icons.io/) in flutter. Over 4200 pixel-perfect icons for design!
+
+tabler icons version: [v2.20.0](https://github.com/tabler/tabler-icons/releases/tag/v2.20.0)
+
+<p style="width:50%;">
+    <img src="https://raw.githubusercontent.com/yenyen0318/tabler_icons_for_flutter/main/assets/image/readme-example.jpg" />
+</p>
+
 
 ## Getting Started
 ```dart
@@ -19,4 +25,4 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-![example](assets/image/readme-example.jpg)
+
