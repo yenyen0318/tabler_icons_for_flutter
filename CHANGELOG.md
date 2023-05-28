@@ -1,3 +1,6 @@
+## 1.0.2
+- **fix**: icon is not center vertically
+
 ## 1.0.1
 - **docs**: update README.md
 

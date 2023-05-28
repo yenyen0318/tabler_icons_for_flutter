@@ -2,6 +2,51 @@
 
 import 'package:flutter/widgets.dart';
 
+class TablerIcon extends StatelessWidget {
+  const TablerIcon(
+    this.icon, {
+    Key? key,
+    this.size,
+    this.color,
+    this.semanticLabel,
+  }) : super(key: key);
+
+  final IconData icon;
+  final double? size;
+  final Color? color;
+  final String? semanticLabel;
+
+  @override
+  Widget build(BuildContext context) {
+    final IconThemeData iconTheme = IconTheme.of(context);
+
+    final double? iconSize = size ?? iconTheme.size;
+    Color iconColor = color ?? iconTheme.color!;
+
+    //fix not center vertically
+    Widget iconWidget = RichText(
+      overflow: TextOverflow.visible,
+      text: TextSpan(
+        text: String.fromCharCode(icon.codePoint),
+        style: TextStyle(
+          color: iconColor,
+          fontSize: iconSize,
+          fontFamily: icon.fontFamily,
+          package: icon.fontPackage,
+        ),
+      ),
+    );
+
+    return Semantics(
+      label: semanticLabel,
+      child: ExcludeSemantics(
+        child: iconWidget,
+      ),
+    );
+  }
+}
+
+
 class TablerIcons {
   TablerIcons._();
 

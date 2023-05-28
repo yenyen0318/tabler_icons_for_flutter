@@ -35,7 +35,10 @@ class HomePage extends StatelessWidget {
             return Column(
               children: <Widget>[
                 ListTile(
-                  leading: Icon(iconData),
+                  leading: TablerIcon(
+                    iconData,
+                    size: 24,
+                  ),
                   title: Text(key),
                 ),
                 const Divider(
