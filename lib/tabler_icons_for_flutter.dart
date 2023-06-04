@@ -421,6 +421,7 @@ class TablerIcons {
   static const IconData backhoe = IconData(0xed86, fontFamily: family, fontPackage: fontPackage);
   static const IconData backpack = IconData(0xef47, fontFamily: family, fontPackage: fontPackage);
   static const IconData backpack_off = IconData(0xf3c2, fontFamily: family, fontPackage: fontPackage);
+  static const IconData backslash = IconData(0xfab9, fontFamily: family, fontPackage: fontPackage);
   static const IconData backspace = IconData(0xea2d, fontFamily: family, fontPackage: fontPackage);
   static const IconData backspace_filled = IconData(0xf7dc, fontFamily: family, fontPackage: fontPackage);
   static const IconData badge = IconData(0xefc2, fontFamily: family, fontPackage: fontPackage);
@@ -3362,6 +3363,22 @@ class TablerIcons {
   static const IconData report_search = IconData(0xef84, fontFamily: family, fontPackage: fontPackage);
   static const IconData reserved_line = IconData(0xf9f6, fontFamily: family, fontPackage: fontPackage);
   static const IconData resize = IconData(0xeecf, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_10 = IconData(0xfaba, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_15 = IconData(0xfabb, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_20 = IconData(0xfabc, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_30 = IconData(0xfabd, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_40 = IconData(0xfabe, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_5 = IconData(0xfabf, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_50 = IconData(0xfac0, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_backward_60 = IconData(0xfac1, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_10 = IconData(0xfac2, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_15 = IconData(0xfac3, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_20 = IconData(0xfac4, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_30 = IconData(0xfac5, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_40 = IconData(0xfac6, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_5 = IconData(0xfac7, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_50 = IconData(0xfac8, fontFamily: family, fontPackage: fontPackage);
+  static const IconData rewind_forward_60 = IconData(0xfac9, fontFamily: family, fontPackage: fontPackage);
   static const IconData ribbon_health = IconData(0xf58e, fontFamily: family, fontPackage: fontPackage);
   static const IconData rings = IconData(0xfa6a, fontFamily: family, fontPackage: fontPackage);
   static const IconData ripple = IconData(0xed82, fontFamily: family, fontPackage: fontPackage);
@@ -3575,6 +3592,7 @@ class TablerIcons {
   static const IconData sitemap_off = IconData(0xf1a6, fontFamily: family, fontPackage: fontPackage);
   static const IconData skateboard = IconData(0xecc2, fontFamily: family, fontPackage: fontPackage);
   static const IconData skateboard_off = IconData(0xf42b, fontFamily: family, fontPackage: fontPackage);
+  static const IconData skateboarding = IconData(0xfaca, fontFamily: family, fontPackage: fontPackage);
   static const IconData skull = IconData(0xf292, fontFamily: family, fontPackage: fontPackage);
   static const IconData slash = IconData(0xf4f9, fontFamily: family, fontPackage: fontPackage);
   static const IconData slashes = IconData(0xf588, fontFamily: family, fontPackage: fontPackage);
@@ -4636,6 +4654,7 @@ class TablerIcons {
     "backhoe": backhoe,
     "backpack": backpack,
     "backpack_off": backpack_off,
+    "backslash": backslash,
     "backspace": backspace,
     "backspace_filled": backspace_filled,
     "badge": badge,
@@ -7577,6 +7596,22 @@ class TablerIcons {
     "report_search": report_search,
     "reserved_line": reserved_line,
     "resize": resize,
+    "rewind_backward_10": rewind_backward_10,
+    "rewind_backward_15": rewind_backward_15,
+    "rewind_backward_20": rewind_backward_20,
+    "rewind_backward_30": rewind_backward_30,
+    "rewind_backward_40": rewind_backward_40,
+    "rewind_backward_5": rewind_backward_5,
+    "rewind_backward_50": rewind_backward_50,
+    "rewind_backward_60": rewind_backward_60,
+    "rewind_forward_10": rewind_forward_10,
+    "rewind_forward_15": rewind_forward_15,
+    "rewind_forward_20": rewind_forward_20,
+    "rewind_forward_30": rewind_forward_30,
+    "rewind_forward_40": rewind_forward_40,
+    "rewind_forward_5": rewind_forward_5,
+    "rewind_forward_50": rewind_forward_50,
+    "rewind_forward_60": rewind_forward_60,
     "ribbon_health": ribbon_health,
     "rings": rings,
     "ripple": ripple,
@@ -7790,6 +7825,7 @@ class TablerIcons {
     "sitemap_off": sitemap_off,
     "skateboard": skateboard,
     "skateboard_off": skateboard_off,
+    "skateboarding": skateboarding,
     "skull": skull,
     "slash": slash,
     "slashes": slashes,
