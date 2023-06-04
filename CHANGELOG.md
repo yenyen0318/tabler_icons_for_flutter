@@ -1,4 +1,9 @@
 ## 1.0.3
+- **feat**: update [tabler icons](https://tabler-icons.io/) version to 2.21.0
+- **docs**: update example
+- **docs**: update README.md
+
+## 1.0.3
 - **docs**: update README.md
 
 ## 1.0.2
